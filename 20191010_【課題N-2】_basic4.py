@@ -19,7 +19,7 @@ print(b.size())
 norm_b = torch.dot(b, b)
 print(norm_b)
 
-# 行内積その1 ( ちなみに行列とベクトルの積は '.mv()' )
+# 行内積その1 ( ちなみに行列とベクトルの積は `.mv()` )
 # ca = torch.mm(c, a)  # RuntimeError: size mismatch, m1: [3 x 4], m2: [2 x 3]
 aa = torch.mm(a.t(), a)
 print(aa)
